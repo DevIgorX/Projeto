@@ -1,0 +1,32 @@
+.anuncio-publicado {
+    position: absolute;
+    width: 478px;
+    height: 449px;
+    left: 0px;
+    top: 0px;
+
+    background: #FCFCFC;
+    border-radius: 6px;
+}
+
+.descartar-alteração {
+    position: absolute;
+    width: 555px;
+    height: 196px;
+    left: 0px;
+    top: 0px;
+
+    background: #FCFCFC;
+    border-radius: 6px;
+}
+
+.remover-produto {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FCFCFC;
+    border-radius: 6px;
+}

@@ -1,0 +1,91 @@
+.input-texto-medio {
+
+
+    height: 58px;
+    background: #FFFEFE;
+
+    border: 1.5px solid #858585;
+    border-radius: 6px;
+    padding: 0 16px
+}
+
+.input-texto-pequeno {
+    box-sizing: border-box;
+
+
+    left: 0%;
+    right: 0%;
+    top: 29.11%;
+    bottom: 15.19%;
+
+    background: #FFFEFE;
+
+    border: 1.5px solid #858585;
+    border-radius: 6px;
+}
+
+
+.input-texto-grande {
+    box-sizing: border-box;
+
+    left: 0%;
+    right: 7.71%;
+    top: 9.62%;
+    bottom: 16.32%;
+
+    background: #FFFEFE;
+
+
+    border: 1.5px solid #858585;
+    border-radius: 6px;
+}
+
+.input-select {
+    box-sizing: border-box;
+
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FFFEFE;
+    border: 1.5px solid #CFD1DC;
+    border-radius: 6px;
+}
+
+.input-pesquisa {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #F8F8F8;
+    border-radius: 6px;
+}
+
+.input-radio {
+    box-sizing: border-box;
+
+
+    width: 174px;
+    height: 114px;
+    left: 149px;
+    top: 8939px;
+
+    border: 1px dashed #7B61FF;
+    border-radius: 5px;
+}
+
+.input-checkbox {
+    box-sizing: border-box;
+
+
+    width: 205px;
+    height: 114px;
+    left: 377px;
+    top: 8939px;
+
+    border: 1px dashed #7B61FF;
+    border-radius: 5px;
+}
