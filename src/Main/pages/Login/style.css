@@ -49,14 +49,17 @@
 }
 
 label {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
     font-family: 'Public Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
+    letter-spacing: -0.382174px;
+    color: #383842;
+    display: flex;
+    flex-direction: column;
+}
 
+.btn-grande-rosa {
+    margin-bottom: 30px;
 }

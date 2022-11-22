@@ -1,4 +1,4 @@
-.input-texto-medio {
+/* .input-texto-medio {
 
 
     height: 58px;
@@ -7,7 +7,7 @@
     border: 1.5px solid #858585;
     border-radius: 6px;
     padding: 0 16px
-}
+} */
 
 .input-texto-pequeno {
     box-sizing: border-box;
@@ -88,4 +88,35 @@
 
     border: 1px dashed #7B61FF;
     border-radius: 5px;
+}
+
+input {
+    width: 100%;
+    height: 44px;
+    margin-top: 4px;
+    margin-bottom: 30px;
+    padding: 0 10px;
+    border: 1.5px solid rgba(133, 133, 133, 1);
+    background: #f8f8f8;
+    border-radius: 6px;
+    color: #6b6b6b;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input-login {
+    width: 382px;
+    height: 44px;
+    background: #F8F8F8;
+    border: 1.5px solid #858585;
+    border-radius: 6px;
+
+}
+
+.input-cadastro {
+    width: 382px;
+    height: 44px;
+    background: #F8F8F8;
+    border: 1.5px solid #858585;
+    border-radius: 6px;
 }

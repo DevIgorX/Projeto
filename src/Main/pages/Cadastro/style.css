@@ -1,0 +1,63 @@
+.Container-Geral-Cadastro {
+
+
+    /* height: 1080px;
+    width: 1920px; */
+    /* left: 953px;
+    top: 1150px; */
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Container-Cadastro {
+    width: clamp(250px, 100%, 500px);
+    margin: 0 auto;
+    background-color: var(--lightDivColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 15%);
+    border-radius: 6px;
+    padding: 10px 32px 15px 32px;
+
+}
+
+.img-cadastro-logo {
+    margin-bottom: 30px;
+}
+
+.container-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texto-criar-conta {
+
+    height: 32px;
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.382174px;
+
+
+
+    color: #191919;
+}
+
+.cabecalho-Cadastro {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #383842;
+    margin-bottom: 12px;
+    font-family: 'Public Sans';
+}

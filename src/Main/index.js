@@ -9,7 +9,7 @@ function Main() {
     <div className="App">
 
       <Login />
-      <Cadastro />
+
     </div>
   );
 }

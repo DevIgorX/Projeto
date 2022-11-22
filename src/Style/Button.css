@@ -1,15 +1,14 @@
 button {
+
+    color: #ffffff;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ffffff;
-    cursor: pointer;
-    align-items: center;
     gap: 15px;
-    margin-left: 167px;
-
     font-family: 'Public Sans';
     border: none;
+
 
 }
 

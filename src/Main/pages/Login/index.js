@@ -21,14 +21,14 @@ function Login() {
                 <form className='Container-Login'>
 
                     <label>E-mail
-                        <input className='input-texto-medio' type='text'
+                        <input className='input-login' type='text'
                             placeholder='exemplo@email.com'
                             value={email}
                             onChange={(e) => setEmail(e.target.value)} />
                     </label>
 
                     <label>Senha
-                        <input type='password'
+                        <input className='input-login' type='password'
                             placeholder='Insira sua senha'
                             value={senha}
                             onChange={(e) => setSenha(e.target.value)} />
@@ -36,11 +36,9 @@ function Login() {
 
                     <button className='btn-grande-rosa' type='submit'>Fazer Login</button>
 
-
-
                     <p className="cor-texto-preto">
                         Não possui conta?
-                        <Link className="cor-texto-rosa" to="/usuario/cadastrar">
+                        <Link className="texto-rosa" to="/cadastrar">
                             Cadastrar
                         </Link>
                     </p>
