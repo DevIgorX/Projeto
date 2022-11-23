@@ -2,6 +2,7 @@ import './style.css'
 import Logo from '../../../assets/Logo.png'
 import { Link, useNavigate } from 'react-router-dom'
 import { useState } from 'react'
+import { api } from '../../../Api'
 
 
 
@@ -12,7 +13,9 @@ function Cadastro() {
     const [nome, setNome] = useState('')
     const [confirmarSenha, setConfirmarSenha] = useState('')
     const navigate = useNavigate('')
-
+    function handleSubmit() {
+        api.post('/cadastrar', { nome, senha, email })
+    }
     return (
         <div className='Container-Geral-Cadastro'>
             <div className='Container-Cadastro'>
@@ -22,7 +25,8 @@ function Cadastro() {
                 <h2 className='cabecalho-Cadastro'>Cadastre-se</h2>
 
 
-                <form className='Container-Formulario'>
+                <form className='Container-Formulario' onSubmit={handleSubmit}>
+
                     <label>Nome da Loja
                         <input className='input-cadastro' type='text'
                             value={nome}
